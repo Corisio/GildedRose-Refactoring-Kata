@@ -69,6 +69,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Items\ItemExtensions.cs" />
+    <Compile Include="Strategies\BaseQualityUpdater.cs" />
+    <Compile Include="Strategies\IQualityUpdater.cs" />
+    <Compile Include="Strategies\ConjuredQualityUpdater.cs" />
+    <Compile Include="Strategies\BackstagePassQualityUpdater.cs" />
+    <Compile Include="Strategies\AgedBrieQualityUpdater.cs" />
+    <Compile Include="Strategies\SulfurasQualityUpdater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

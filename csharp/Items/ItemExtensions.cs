@@ -24,7 +24,7 @@
 
             if (item.Name.Contains(SULFURAS_IDENTIFIER))
             {
-                return ItemType.Standard;
+                return ItemType.Sulfuras;
             }
 
             if (item.Name.Contains(AGED_BRIE_IDENTIFIER))
