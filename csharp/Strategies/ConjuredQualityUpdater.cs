@@ -7,7 +7,7 @@ namespace csharp.Strategies
  
         protected override int GetQualityModifier(Item item)
         {
-            return -1;
+            return -2;
         }
     }
 }
