@@ -2,7 +2,7 @@
 
 namespace csharp.Strategies
 {
-    internal class SulfurasQualityUpdater : BaseQualityUpdater
+    public class SulfurasQualityUpdater : BaseQualityUpdater
     {
  
         protected override int GetQualityModifier(Item item)

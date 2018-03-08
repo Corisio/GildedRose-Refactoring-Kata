@@ -2,7 +2,7 @@
 
 namespace csharp.Strategies
 {
-    internal interface IQualityUpdater
+    public interface IQualityUpdater
     {
         void UpdateQuality(Item item);
     }

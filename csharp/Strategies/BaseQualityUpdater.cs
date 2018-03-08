@@ -3,7 +3,7 @@ using System;
 
 namespace csharp.Strategies
 {
-    internal class BaseQualityUpdater : IQualityUpdater
+    public class BaseQualityUpdater : IQualityUpdater
     {
         protected const int NON_EXPIRED_DEGRADATION_RATE = 1;
         protected const int EXPIRED_DEGRADATION_RATE = 2;

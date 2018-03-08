@@ -2,7 +2,7 @@
 
 namespace csharp.Strategies
 {
-    internal class BackstagePassQualityUpdater : BaseQualityUpdater
+    public class BackstagePassQualityUpdater : BaseQualityUpdater
     {
 
         protected override int GetUpdatedQuality(Item item)

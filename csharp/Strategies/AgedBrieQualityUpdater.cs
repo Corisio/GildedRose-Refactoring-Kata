@@ -2,7 +2,7 @@
 
 namespace csharp.Strategies
 {
-    internal class AgedBrieQualityUpdater : BaseQualityUpdater
+    public class AgedBrieQualityUpdater : BaseQualityUpdater
     {
  
         protected override int GetQualityModifier(Item item)
